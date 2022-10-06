@@ -1,0 +1,28 @@
+@import '../abstract/variables';
+
+.rodape{
+    display: flex;
+    background-color: #90D4C5;
+    height: 24.3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+}
+.logo{
+    margin-top: 5.2rem;
+    color: $dark-green;
+}
+.contatos{
+    font-family: $text-family-secundary;
+    font-size: $text-size-200;
+    color: $dark-green;
+    display: flex;
+    justify-content: space-between ;  
+    font-weight: 400;
+    gap: 3.2rem;
+}
+.icones{
+    display: flex;
+    margin-top: $space;
+    gap: 3.2rem;
+}

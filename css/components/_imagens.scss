@@ -1,0 +1,22 @@
+@import '../abstract/variables';
+
+.imagens__finais{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .picture{
+        width: 100%;
+    }
+
+}
+
+@media(min-width:800px){
+    .imagens__finais{
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+
+    .picture{
+       height: 100%;
+    }
+}

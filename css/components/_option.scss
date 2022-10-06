@@ -1,0 +1,59 @@
+@import '../abstract/mixin';
+@import '../abstract/variables';
+
+.opinion{
+    text-align: center;
+    padding: $space * 4;
+    background-color: $off-white;
+    
+}
+ul{
+    list-style: none;
+    
+}
+.section__info__h3{
+font-family: $text-family-primary;
+font-size: $text-size-400;
+color: $dark-blue;
+}
+
+.opinion__thomas,
+.opinion__jennie,
+.opinion__emily {
+font-family: $text-family-secundary;
+font-size: $text-size-200;
+color: $dark-gray;
+margin-top: 1.6rem;
+line-height: 3.6rem;
+}
+
+.nome__h3{
+    font-family: $text-family-primary;
+    font-size: $text-size-300;
+    margin-top: 1.6rem;
+}
+.ocupation__info{
+    font-family: $text-family-secundary;
+    font-size: $text-size-100;
+    color: $dark-gray;
+    margin-bottom: 4.4rem;
+}
+@media(min-width:800px){
+    .opinion{
+        ul{
+            display: flex;
+            padding-block: 8rem;
+            gap: 3rem;
+            font-size: $text-size-100;
+        }
+        .section__info__h3{
+            font-family: $text-family-primary;
+            font-size: $text-size-400;
+            color: $dark-blue;
+            margin-top: 1.6rem;
+        }
+       
+    }
+}
+
+
